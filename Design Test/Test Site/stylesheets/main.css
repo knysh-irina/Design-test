@@ -1,0 +1,325 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px; }
+
+.clearfix {
+  clear: both; }
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../fonts/OpenSans-Regular.ttf);
+ 
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../fonts/OpenSans-Regular.eot);
+  src: url(../fonts/OpenSans-Regular.ttf) format("truetype")  ,
+  url(../fonts/OpenSans-Regular.woff) format("woff"),
+,
+  url(../fonts/OpenSans-Regular.svg)  format("svg");
+}
+
+
+
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../fonts/OpenSans-Bold.eot);
+  src: url(../fonts/OpenSans-Bold.ttf) format("truetype") ,
+ url(../fonts/OpenSans-Bold.woff) format("woff"),
+  url(../fonts/OpenSans-Bold.svg)format("svg"); 
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(../fonts/OpenSans-Semibold.eot);
+  src: url(../fonts/OpenSans-Semibold.ttf) format("truetype") ,
+ url(../fonts/OpenSans-Semibold.woff) format("woff"),
+  url(../fonts/OpenSans-Semibold.svg)format("svg"); 
+}
+
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(../fonts/OpenSans-Light.eot);
+  src: url(../fonts/OpenSans-Light.ttf) format("truetype") ,
+ url(../fonts/OpenSans-Light.woff) format("woff"),
+  url(../fonts/OpenSans-Light.svg)format("svg"); 
+}
+body {
+ font-size: 100%;
+  font-family: OpenSans-Regular; }
+
+/*...................login..........................*/
+.login {
+  background-image: url(../images/1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.login-h1 {
+  text-align: center;
+  color: #333333;
+  font-size: 24px;
+  margin-top: 66px;
+  margin-bottom: 90px; }
+
+.login-form {
+  width: 270px;
+  height: 270px;
+  margin: 0 auto;
+  margin-top: 85px; }
+
+.login-label {
+  font-size: 12px;
+  color: #a8b8c4; }
+
+input[type='email'], input[type='password'] {
+  font-size: 16px;
+  color: #333333;
+  border: 0px;
+  border-bottom: 1px solid #d0dce7;
+  width: 100%;
+  height: 30px; }
+
+input[type='email'] {
+  margin-bottom: 55px; }
+
+input[type='password'] {
+  margin-bottom: 35px; }
+
+input[type='submit'] {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background-color: #007ee5;
+  text-align: center;
+  font-family: OpenSans-Bold;
+  color: white;
+  font-size: 14px;
+  border: 0;
+  cursor: pointer; }
+
+.login-text {
+  color: #a8b8c4;
+  line-height: 1.5;
+  font-size: 14px; }
+
+.login-text-a {
+  color: #007ee5;
+  text-decoration: none; }
+
+@media only screen and (min-width: 32em) {
+  .login {
+    background-image: url(../images/fullscreen_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1300px; }
+
+  input[type='submit'] {
+    position: relative; }
+
+  .login-form {
+    background-color: white;
+    width: 505px;
+    height: 490px;
+    padding: 55px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    margin-top: 170px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 48px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 48px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 48px -9px rgba(0, 0, 0, 0.75); }
+
+  .login-h1 {
+    margin-top: 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d0dce7;
+    margin-bottom: 40px; }
+
+  .login-text {
+    text-align: center;
+    margin-bottom: 30px; } }
+/*...................login end..................*/
+
+
+/*.......................header..................................*/
+header{
+  background: #f5f8f9;
+  padding-bottom: 14px;
+}
+
+.header--logout{
+  text-decoration: none;
+  float: right;
+  font-family: OpenSans-Bold;
+  font-size: 12px;
+  color: #007ee5;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.header--user{
+  text-align: center;
+  padding-top: 76px;
+  font-size: 22px;
+  color: #333333;
+  font-family: OpenSans-Semibold;
+  margin-bottom: 15px;
+
+}
+.header--user img{
+  -webkit-box-shadow: 0px 0px 48px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 48px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 48px -9px rgba(0, 0, 0, 0.75); 
+}
+
+.header--user-info{
+  font-size: 12px;
+  color: #a6b0b7;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.header--user-phone, .header--user-location, .header--user-stars{
+  margin-bottom: 8px;
+}
+.header--user-stars{
+  color: #007ee5;
+}
+.header--user-reviews{
+  margin-bottom: 25px;
+
+}
+.header--user-followers{
+  margin-bottom: 21px;
+}
+.header--user-followers i{
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.header--user-number-dark{
+  color: #3f454a;
+  font-family: OpenSans-Semibold;
+  margin-right: 5px;
+}
+
+
+nav{
+  background-color: white;
+padding-left: 18px;
+ -webkit-box-shadow: 0px 0px 23px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 23px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 23px -5px rgba(0, 0, 0, 0.75); }
+
+
+nav ul li{
+  display: inline-block;
+}
+
+ nav ul li a {
+  text-decoration: none;
+  font-family: OpenSans-Light;
+  color: #333333;
+  font-weight: bolder;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+  margin-right: 22px;
+}
+
+ nav ul li:last-child a{
+  margin-right: 0;
+ }
+
+.active{
+  border-bottom: 2px solid #028dfe;
+  padding-bottom: 13px;
+}
+
+.profile{
+  border-top: 1px solid #d0dce7;
+  border-bottom: 1px solid #d0dce7;
+  padding: 25px 25px 35px;
+}
+.profile--info{
+  font-size: 20px;
+  color: #727e88;
+  font-family: OpenSans-Regular;
+  margin-bottom: 20px;
+}
+.profile--info i {
+  padding: 3px 7px;
+  background-color: #ecf1f5;
+  color: #727e88;
+
+}
+.profile--info a{
+  text-decoration: none;
+  float: right;
+}
+
+.profile--info-save,.profile--info-cancel{
+  color: #007ee5;
+  font-size: 14px;
+
+}
+.profile--info-cancel{
+  margin-right: 32px;
+}
+
+
+.profile--name{
+  font-size: 16px;
+  color: #333333;
+   font-family: OpenSans-Semibold;
+   margin-bottom: 15px;
+}
+
+.profile--area  {
+  font-size: 14px;
+  color: #727e88;
+  margin-bottom: 15px;
+}
+.profile--site{
+  font-size: 14px;
+  color: #333333;
+  text-decoration: none;
+}
+.profile--phone, .profile--address{
+font-size: 14px;
+  color: #333333;
+  margin-top: 15px;
+}
+.profile--contact i{
+  color: #a8b8c4;
+  margin-right: 5px;
+}
+
+.bottom{
+  height: 35px;
+  width: 100%;
+  background: #f5f8f9;
+}
+
+.profile--edit input{
+  font-size: 16px;
+  color: #333333;
+  border: 0px;
+  border-bottom: 1px solid #d0dce7;
+  width: 100%;
+  height: 30px;
+}
+.profile--description{
+  font-size: 12px;
+  color: #a8b8c4;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
